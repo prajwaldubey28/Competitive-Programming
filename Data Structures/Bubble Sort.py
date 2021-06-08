@@ -1,6 +1,3 @@
-BUBBLE SORT
-
-
 def bubblesort(n,list1):    
     for i in range(n):
         c = 0
