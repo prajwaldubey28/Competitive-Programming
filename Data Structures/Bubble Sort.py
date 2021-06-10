@@ -3,6 +3,7 @@ def bubblesort(n,list1):
         c = 0
         for j in range(n-i-1):
             if list1[j]>list1[j+1]:
+                c = c+1
                 list1[j],list1[j+1]= list1[j+1],list1[j]
         if c==0:
             break
